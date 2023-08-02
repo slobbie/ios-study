@@ -9,13 +9,16 @@
 /* Begin PBXBuildFile section */
 		4F8238662A77F1260059EB9C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8238652A77F1260059EB9C /* AppDelegate.swift */; };
 		4F8238682A77F1260059EB9C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8238672A77F1260059EB9C /* SceneDelegate.swift */; };
-		4F82386A2A77F1260059EB9C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8238692A77F1260059EB9C /* ViewController.swift */; };
+		4F82386A2A77F1260059EB9C /* PickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8238692A77F1260059EB9C /* PickerViewController.swift */; };
 		4F82386D2A77F1260059EB9C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F82386B2A77F1260059EB9C /* Main.storyboard */; };
 		4F82386F2A77F1270059EB9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F82386E2A77F1270059EB9C /* Assets.xcassets */; };
 		4F8238722A77F1270059EB9C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F8238702A77F1270059EB9C /* LaunchScreen.storyboard */; };
 		4F82387D2A77F1270059EB9C /* CurrencyConverterAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F82387C2A77F1270059EB9C /* CurrencyConverterAppTests.swift */; };
 		4F8238872A77F1270059EB9C /* CurrencyConverterAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8238862A77F1270059EB9C /* CurrencyConverterAppUITests.swift */; };
 		4F8238892A77F1270059EB9C /* CurrencyConverterAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8238882A77F1270059EB9C /* CurrencyConverterAppUITestsLaunchTests.swift */; };
+		4F8238962A77FA320059EB9C /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8238952A77FA320059EB9C /* ListViewController.swift */; };
+		4F8238982A7808870059EB9C /* TabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8238972A7808870059EB9C /* TabbarController.swift */; };
+		4F82389A2A7A9EF30059EB9C /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8238992A7A9EF30059EB9C /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +42,7 @@
 		4F8238622A77F1260059EB9C /* CurrencyConverterApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CurrencyConverterApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F8238652A77F1260059EB9C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4F8238672A77F1260059EB9C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4F8238692A77F1260059EB9C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4F8238692A77F1260059EB9C /* PickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerViewController.swift; sourceTree = "<group>"; };
 		4F82386C2A77F1260059EB9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4F82386E2A77F1270059EB9C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4F8238712A77F1270059EB9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +52,9 @@
 		4F8238822A77F1270059EB9C /* CurrencyConverterAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CurrencyConverterAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F8238862A77F1270059EB9C /* CurrencyConverterAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyConverterAppUITests.swift; sourceTree = "<group>"; };
 		4F8238882A77F1270059EB9C /* CurrencyConverterAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyConverterAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4F8238952A77FA320059EB9C /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		4F8238972A7808870059EB9C /* TabbarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarController.swift; sourceTree = "<group>"; };
+		4F8238992A7A9EF30059EB9C /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +107,10 @@
 			children = (
 				4F8238652A77F1260059EB9C /* AppDelegate.swift */,
 				4F8238672A77F1260059EB9C /* SceneDelegate.swift */,
-				4F8238692A77F1260059EB9C /* ViewController.swift */,
+				4F8238692A77F1260059EB9C /* PickerViewController.swift */,
+				4F8238992A7A9EF30059EB9C /* Model.swift */,
+				4F8238972A7808870059EB9C /* TabbarController.swift */,
+				4F8238952A77FA320059EB9C /* ListViewController.swift */,
 				4F82386B2A77F1260059EB9C /* Main.storyboard */,
 				4F82386E2A77F1270059EB9C /* Assets.xcassets */,
 				4F8238702A77F1270059EB9C /* LaunchScreen.storyboard */,
@@ -258,8 +267,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F82386A2A77F1260059EB9C /* ViewController.swift in Sources */,
+				4F82386A2A77F1260059EB9C /* PickerViewController.swift in Sources */,
 				4F8238662A77F1260059EB9C /* AppDelegate.swift in Sources */,
+				4F8238962A77FA320059EB9C /* ListViewController.swift in Sources */,
+				4F82389A2A7A9EF30059EB9C /* Model.swift in Sources */,
+				4F8238982A7808870059EB9C /* TabbarController.swift in Sources */,
 				4F8238682A77F1260059EB9C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
